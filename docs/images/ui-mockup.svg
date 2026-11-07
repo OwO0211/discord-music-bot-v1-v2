@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" width="1200" height="820" role="img" aria-label="Mockup of the Discord music bot interface">
+  <title>Discord music bot UI mockup</title>
+  <desc>A layout illustration of the now-playing panel and the /randomplay result. Not a screenshot.</desc>
+
+  <rect width="1200" height="820" fill="#1e1f22"/>
+
+  <!-- ============ message 1: now playing ============ -->
+  <rect x="40" y="40" width="1120" height="392" rx="16" fill="#313338"/>
+
+  <!-- avatar -->
+  <circle cx="104" cy="104" r="30" fill="#5865f2"/>
+  <text x="104" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">E</text>
+
+  <!-- name row -->
+  <text x="152" y="98" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#f2f3f5">Eileen</text>
+  <rect x="222" y="82" width="42" height="20" rx="4" fill="#5865f2"/>
+  <text x="243" y="97" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">APP</text>
+  <text x="278" y="98" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#949ba4">Today at 21:04</text>
+
+  <!-- embed -->
+  <rect x="152" y="122" width="976" height="200" rx="8" fill="#2b2d31"/>
+  <rect x="152" y="122" width="4" height="200" rx="2" fill="#5865f2"/>
+
+  <text x="184" y="158" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#949ba4">NOW PLAYING</text>
+  <text x="184" y="196" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#f2f3f5">Yoru ni Kakeru — YOASOBI</text>
+
+  <text x="184" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#b5bac1">Duration 4:21</text>
+  <text x="330" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#b5bac1">Requested by you</text>
+  <text x="530" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#b5bac1">Volume 100%</text>
+
+  <line x1="184" y1="256" x2="1096" y2="256" stroke="#3f4147" stroke-width="1"/>
+
+  <text x="184" y="286" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#949ba4">Queue: 3 songs</text>
+  <text x="330" y="286" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#949ba4">Loop: off</text>
+  <text x="460" y="286" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#949ba4">Source: yt-dlp stream</text>
+
+  <!-- button row 1 -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">
+    <rect x="184" y="338" width="112" height="40" rx="8" fill="#5865f2"/>
+    <text x="240" y="363" fill="#ffffff" text-anchor="middle">Pause</text>
+
+    <rect x="308" y="338" width="104" height="40" rx="8" fill="#4e5058"/>
+    <text x="360" y="363" fill="#ffffff" text-anchor="middle">Skip</text>
+
+    <rect x="424" y="338" width="104" height="40" rx="8" fill="#da373c"/>
+    <text x="476" y="363" fill="#ffffff" text-anchor="middle">Stop</text>
+
+    <rect x="540" y="338" width="112" height="40" rx="8" fill="#4e5058"/>
+    <text x="596" y="363" fill="#ffffff" text-anchor="middle">Queue</text>
+
+    <rect x="664" y="338" width="124" height="40" rx="8" fill="#4e5058"/>
+    <text x="726" y="363" fill="#ffffff" text-anchor="middle">Volume −</text>
+
+    <rect x="800" y="338" width="124" height="40" rx="8" fill="#4e5058"/>
+    <text x="862" y="363" fill="#ffffff" text-anchor="middle">Volume +</text>
+
+    <rect x="936" y="338" width="160" height="40" rx="8" fill="#248046"/>
+    <text x="1016" y="363" fill="#ffffff" text-anchor="middle">Random 5</text>
+  </g>
+
+  <!-- ============ message 2: randomplay ============ -->
+  <rect x="40" y="452" width="1120" height="288" rx="16" fill="#313338"/>
+
+  <circle cx="104" cy="516" r="30" fill="#5865f2"/>
+  <text x="104" y="524" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">E</text>
+
+  <text x="152" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#f2f3f5">Eileen</text>
+  <text x="222" y="510" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#949ba4">Today at 21:07</text>
+
+  <text x="152" y="542" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#dbdee1"><tspan fill="#a3b1f5">/randomplay 3</tspan></text>
+
+  <rect x="152" y="566" width="976" height="140" rx="8" fill="#2b2d31"/>
+  <rect x="152" y="566" width="4" height="140" rx="2" fill="#248046"/>
+
+  <text x="184" y="600" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#f2f3f5">Added 3 random songs to the queue</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#b5bac1">
+    <text x="184" y="634">1. Pretender — Official HIGE DANdism</text>
+    <text x="184" y="660">2. Kick Back — Kenshi Yonezu</text>
+    <text x="184" y="686">3. Idol — YOASOBI</text>
+  </g>
+
+  <text x="640" y="634" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#949ba4">Library: 1,522 songs</text>
+  <text x="640" y="660" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#949ba4">Picked at random, no repeats</text>
+
+  <!-- caption -->
+  <text x="600" y="788" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#6d7178" text-anchor="middle">Mockup — layout illustration only, not a screenshot of the live bot.</text>
+</svg>

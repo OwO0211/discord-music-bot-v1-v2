@@ -1,0 +1,20 @@
+@bot.tree.command(name='list', description='顯示播放列表')
+async def list_music(interaction: discord.Interaction):
+    player = get_music_player(interaction)
+    message = ""
+    
+    # 添加当前播放的音乐信息
+    if player.current:
+        message += f"現在播放：{player.current.title}\n\n"
+    else:
+        message += "當前沒有正在播放的音樂。\n\n"
+    
+    # 添加播放列表信息
+    if player.queue.empty():
+        message += "播放列表是空的。"
+    else:
+        message += "播放列表中有以下歌曲：\n"
+        for item in player.queue._queue:
+            message += f"- {item.title}\n"
+    
+    await interaction.response.send_message(message) 

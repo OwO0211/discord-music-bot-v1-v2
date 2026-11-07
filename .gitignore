@@ -1,0 +1,25 @@
+# secrets
+.env
+!.env.example
+cookies.json
+cookies.txt
+
+# python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# runtime data
+logs/
+data/downloads/
+data/backups/
+*.db
+*.db-journal
+*.log
+*.pid
+
+# local tooling / build staging
+.tools/
+.build/
